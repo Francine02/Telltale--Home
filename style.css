@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Roboto Slab";
+    font-weight: 900;
+    font-style: bold;
+}
+
+#nav-principal a{
+    color: black;
+    padding-right: 1em;
+    text-align: center;
+}
+
+#nav-principal a:hover {
+    color: rgb(130, 16, 16);
+}
+
+#button {
+    border-color: black;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(0, 0, 0);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#container1 {
+    position: relative;
+    margin-top: 6em;
+    background: url('./Img/expanse.png') no-repeat;
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: white;
+    margin-top: 3em;
+}
