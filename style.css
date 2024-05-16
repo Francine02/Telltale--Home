@@ -14,6 +14,8 @@ body {
     color: black;
     padding-right: 1em;
     text-align: center;
+    font-size: 0.9rem;
+    font-weight: bolder;
 }
 
 #nav-principal a:hover {
@@ -33,7 +35,7 @@ body {
     
 }
 
-.container-fluid {
+#home {
     margin-top: 6em;
     background: url('./Img/expanse.png') no-repeat;
     width: 100%;
@@ -44,38 +46,51 @@ body {
     & h1 {
         color: white;
         margin-top: 8rem;
-        font-size: 2.7rem;
+        font-size: 2.3rem;
         font-weight: 900;
     }
 
     & img {
-        width: 48rem;
+        width: 42rem;
         padding-top: 2rem;
     }
 
-    & .row {
-        background: rgba(31, 31, 31, 0.319);
+    & .col-auto {
+        background: rgba(31, 31, 31, 0.407);
         color: white;
-        margin-left: 0.1rem;
-        margin-right: 0.1rem;
 
         & img {
             filter: invert(100%);
-            padding: 1.1rem 0.7rem 0.9rem 0.5rem;
+            padding: 1.2rem 0.8rem 1rem 0.6rem;
             width: 3rem;
             height: 3.7rem;
         }
 
         & p {
             font-weight: 300;
-            font-size: 1.1rem;
-            letter-spacing: 1px;
-        }
+            font-size: 0.9rem;
 
-        & #xbox:hover, #steam:hover, #epic:hover, #ps:hover {
-            background: rgba(255, 166, 0, 0.288);
-            cursor: pointer;
         }
+    }
+
+    & #xbox:hover, #steam:hover, #epic:hover, #ps:hover {
+        background: rgba(255, 166, 0, 0.288);
+        cursor: pointer;
+    }
+
+    & .btn {
+        font-style: italic;
+        color: #9EDDE1;
+        border-width: 0.18rem;
+        border-color: #9EDDE1;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    & .btn:hover {
+        background-color: #9EDDE1;
+        color: black;
     }
 }
 

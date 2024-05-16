@@ -11,7 +11,7 @@
 </head>
 <body>
   <header class="fixed-top">
-    <nav class="navbar navbar-expand-lg bg-light navbar-light px-lg-4">
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
         <a href="#" class="navbar-brand">
           <img src="./Img/telltale-logo-red.png" alt="logo" class="m-3">
         </a>
@@ -48,36 +48,59 @@
     </nav>
   </header>
 
-  <div class="container-fluid">
+  <div class="container-fluid" id="home">
     <div class="d-flex justify-content-center">
       <div>
-        <h1 class="pt-4 pb-3">Buy The Expanse Today</h1>
+        <h1 class="pt-1 pb-3">Buy The Expanse Today</h1>
 
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-auto d-inline-flex p-1 pr-4" id="xbox">
             <img src="./Img/xbox-one.png" alt="xbox"><p class="mt-auto mb-auto">Xbox Series X/S</p>
           </div>
 
-          <div class="col-auto d-inline-flex p-1 pr-4" id="steam">
+          <div class="col-auto d-inline-flex p-1 pr-5" id="steam">
             <img src="./Img/steam.png" alt="steam"><p class="mt-auto mb-auto">Steam</p>
           </div>
 
-          <div class="col-auto d-inline-flex p-1 pr-4" id="epic">
+          <div class="col-auto d-inline-flex p-1 pr-5" id="epic">
             <img src="./Img/epic30.png" alt="epic"><p class="mt-auto mb-auto">Epic Games Store</p>
           </div>
 
-          <div class="col-auto d-inline-flex p-1" id="ps">
-            <img src="./Img/ps4.png" alt="ps4/ps5" style="width: 3.1rem;"><p class="mt-auto mb-auto pr-2">PS4 / PS5</p>
+          <div class="col-auto d-inline-flex p-1 pr-3" id="ps">
+            <img src="./Img/ps4.png" alt="ps4/ps5" style="width: 3.1rem;"><p class="mt-auto mb-auto">PS4 / PS5</p>
           </div>
         </div>
 
         <div class="pt-4">
-          <img src="./Img/videoExpansePrint.png" alt="">
+          <img src="./Img/videoExpansePrint.png" alt="print-trailer-TheExpanse" class="img-fluid">
         </div>
 
-        <button class="btn btn-outline-primary mt-4">Learn More</button>
+        <button class="btn btn-outline-primary mt-4 pt-3 pb-3 pl-5 pr-5">Learn More</button>
       </div>
     </div>
+  </div>
+
+  <div class="container-fluid flex justify-content-center pt-5">
+    <h1 class="pt-4 text-center">Stay up-to-date to learn more about our games!</h1>
+
+    <form class="text-justify">
+      <div class="form-group">
+        <label for="Email">Email address:</label>
+        <input type="email" class="form-control" id="Email" placeholder="sheriff@fabletown.com">
+      </div>
+
+      <div class="form-group">
+        <label for="Password1">First Name</label>
+        <input type="text" class="form-control" id="Password1" placeholder="Bigby">
+      </div>
+
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="Check">
+        <label class="form-check-label" for="Check">I confirm I would like to receive emails from Telltale</label>
+      </div>
+      <p>You can unsubscribe at any time by clicking the link in the footer of our emails. For information about our privacy practices, please see our privacy policy. <br><br> We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. Learn more about Mailchimp's privacy practices here.</p>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
   </div>
 
 
