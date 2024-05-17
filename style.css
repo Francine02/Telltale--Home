@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Roboto Slab";
+    font-family: "Work Sans", sans-serif;
     font-weight: 900;
     font-style: bold;
 }
@@ -94,3 +94,62 @@ body {
     }
 }
 
+#form {
+    & h3 {
+        font-weight: bolder;
+        color: black;
+    }
+
+    & #email, #first-name {
+        background-color: rgba(128, 128, 128, 0.295);
+        border-color: rgb(130, 16, 16);
+        width: 16rem;
+        font-size: 0.9rem;
+    }
+
+    
+    & label {
+        font-weight: 400;
+        font-size: 0.9rem;
+        width: 15rem;
+        color: black;
+    }
+
+    & #check-text {
+        width: 20rem;
+        text-align: left;
+    }
+
+    & p {
+        font-size: 0.6rem;
+        font-weight: 400;
+        width:16rem;
+        text-align: left;
+        line-height: 1.3rem;
+    }
+
+    & span {
+        color: rgb(130, 16, 16);
+    }
+
+    & span:hover {
+        color: black;
+        font-weight: 100;
+        cursor: pointer;
+    }
+
+    & button {
+        color: black;
+        font-style: italic;
+        font-weight: bold;
+        border-radius: 50px;
+        border-color: rgb(130, 16, 16);
+        border-width: 0.2rem;
+        font-size: 1.1rem;
+    }
+
+    & button:hover {
+        color: white;
+        background-color: rgb(130, 16, 16);
+    }
+}
