@@ -153,3 +153,79 @@ body {
         background-color: rgb(130, 16, 16);
     }
 }
+
+#about {
+    color: white;
+    margin: -1rem;
+
+    & #content-about {
+        width: 100%;
+        background-image: url("./Img/about-logo.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-bottom: 0.25rem black solid;
+
+        & h2 {
+            font-weight: bolder;
+        }
+    
+        & p {
+            font-weight: 400;
+            font-size: 0.9rem;
+        }
+    
+        & button {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: white;
+            background-color: #612e279d;
+            font-style: italic;
+            padding: 0.9rem;
+            border: none;
+        }
+    
+        & button:hover {
+            color: black;
+            cursor: pointer;
+        }
+    }
+
+    & #our-games {
+        background-color: rgba(128, 128, 128, 0.356);
+        color: black;
+        height: 16.3rem;
+
+        & h2 {
+            font-weight: bolder;
+        }
+    }
+
+    & .row {
+        margin-top: -6rem;
+        
+        & img {
+            cursor: pointer;
+        }
+
+        & p {
+            color: black;
+            font-weight: 500;
+            font-size: 1rem;
+        }
+    }
+
+    & button {
+        border: none;
+        color: black;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 1.23rem;
+        background-color: rgba(128, 128, 128, 0.605);
+        padding: 0.8rem 1rem;
+    }
+
+    & button:hover {
+        color: white;
+        cursor: pointer;
+    }
+}
