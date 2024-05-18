@@ -163,7 +163,6 @@ body {
         background-image: url("./Img/about-logo.png");
         background-size: cover;
         background-repeat: no-repeat;
-        border-bottom: 0.25rem black solid;
 
         & h2 {
             font-weight: bolder;
@@ -226,6 +225,40 @@ body {
 
     & button:hover {
         color: white;
+        cursor: pointer;
+    }
+}
+
+#part-contact {
+    background-color: rgba(0, 0, 0, 0.933);
+    color: white;
+    border-bottom: 1.5px white solid;
+
+    & #contact {
+        & h2 {
+            font-weight: bolder;
+            letter-spacing: 1px;
+        }
+    
+        & button {
+            background-color: rgb(130, 16, 16);
+            color: white;
+            font-size: 1.7rem;
+            border-radius: 60%;
+            border: white 4px solid;
+            padding: 0.4rem 0.9rem;
+            cursor: pointer;
+        }
+    }
+}
+
+#end {
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: 1.1rem;
+
+    & #policy {
         cursor: pointer;
     }
 }
